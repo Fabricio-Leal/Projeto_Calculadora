@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&family=Black+Ops+One&family=Codystar&family=Press+Start+2P&family=Silkscreen&family=Tourney&display=swap');
+
+body {
+    background-color: brown;
+    display: flex; 
+    justify-content: center;  
+    
+        
+}
+
+.box {
+    background-color: black;
+    padding: 10px;
+    height: 600px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;    
+    
+}
+
+.calculadora {
+    background-color: #CED4DA;    
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px;
+    grid-gap: 3px;
+    width: 412px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: #DEE2E6;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-color: #CED4DA;
+    
+}
+
+.numbers {
+    font-weight: bolder;
+    font-size: large ;
+}
+
+.resultado {
+    height: 103px;
+    grid-row-start: 6;
+    grid-row-end: 8;    
+}
+
+.backspace {
+    width: 204px;
+}
+
+input {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: right;
+    font-size: larger;
+    background-color: #DEE2E6;
+    font-family:'DS-Digital', Codystar, Tourney, Arial, Helvetica, sans-serif;    
+    font-weight: bolder;
+    font-size: 30px;
+    border-color: #CED4DA;
+    
+}
+
+.first-line {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* background-color: blueviolet; */
+    
+}
+
+.second-line {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* background-color: aquamarine; */
+    
+}
+
+.third-line {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* background-color: blue; */
+    
+}
+
+.fourth-line {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* background-color: chartreuse; */
+    
+}
+
+.fifth-line {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* background-color: cornflowerblue; */
+    grid-row-start: 6;
+    grid-row-end: 7;
+   
+   
+}
+
+.sixth-line {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* background-color: darkcyan; */
+    grid-row-start: 7;
+    grid-row-end: 8;
+    
+}
+
