@@ -11,20 +11,20 @@
         
     <div class="box">
 
-        <div class="calculadora"> 
-
-            <input id="visor" type="text">
-
+        <div class="calculadora">
+                        
+            <input id="visor" type="text" placeholder="0">
+            
             <div class="first-line">                                
                 <button>%</button>                
-                <button>C</button>
-                <button class="backspace">←</button>
+                <button onclick="Limpar()">C</button>
+                <button class="backspace" onclick="Backspace()">←</button>
             </div>
             
             <div class="second-line">
                 <button onclick="Potencia()">x²</button>
                 <button onclick="Raiz()">²√x</button>
-                <button onclick="">÷</button>
+                <button value="÷" onclick="Preencher(this)">÷</button>
                 <button>X</button>
             </div>
            
